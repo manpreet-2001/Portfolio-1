@@ -138,6 +138,7 @@ p { margin: 0 0 12px; }
   clip-path: polygon(8% 0, 92% 0, 100% 50%, 92% 100%, 8% 100%, 0 50%);
 }
 .project-actions { display: flex; gap: 10px; }
+.project-actions .btn-sm { padding: 4px 8px; font-size: 11px; border-radius: 8px; line-height: 1; box-shadow: none; }
 
 /* Skills */
 .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
