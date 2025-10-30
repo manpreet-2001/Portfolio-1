@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Manpreet Singh — Full-stack web developer portfolio (Node.js, ASP.NET Core MVC, Django, SQL Server)"> 
+  <title>Manpreet Singh | Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🧑‍💻</text></svg>">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Manpreet Singh">
+      <svg class="brand-logo" width="34" height="34" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#7c5cff"/>
+            <stop offset="100%" stop-color="#22d3ee"/>
+          </linearGradient>
+          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+            <feMerge>
+              <feMergeNode in="coloredBlur"/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
+        </defs>
+        <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#g1)" opacity="0.15"/>
+        <rect x="4" y="4" width="40" height="40" rx="10" fill="none" stroke="url(#g1)" stroke-width="2"/>
+        <path d="M12 31 V17 L18 24 L24 17 V31" fill="none" stroke="url(#g1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+        <path d="M27 19 C27 17 29 16 31 16 H36 C38 16 40 17.5 40 20 C40 23 37 24 34 25 C31 26 28 27 28 30 C28 32 30 33 32 33 H38" fill="none" stroke="url(#g1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+      </svg>
+    </a>
+    <div class="actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+      <a class="btn btn-primary" href="#contact">Hire Me</a>
+      <a class="btn btn-sm" target="_blank" rel="noreferrer" href="http://www.linkedin.com/in/manpreet-singh-802b441b5">LinkedIn</a>
+    </div>
+    <nav class="nav" aria-label="Primary">
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home" class="hero">
+    <div class="hero-inner container">
+      <div class="hero-content">
+        <p class="eyebrow">Full-Stack Web Developer</p>
+        <h1>Hi, I'm <span class="accent">Manpreet Singh</span>.</h1>
+        <p class="lead">I build real-world applications with Node.js, ASP.NET Core MVC, Django, SQL Server, and MERN (MongoDB, Express, React, Node.js). Passionate about performant UX, clean architectures, and integrating external APIs.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn" href="#experience">Experience</a>
+        </div>
+        
+      </div>
+      <div class="hero-card">
+        <div class="glass">
+          <p class="mini">Currently</p>
+          <h3>Exploring DevOps</h3>
+          <p class="muted">Hands-on with CI/CD, Docker, Kubernetes, and cloud deployments (Azure/AWS), plus monitoring and automation.</p>
+        </div>
+        <div class="stats">
+          <div><span class="num">3</span><span class="label">Frameworks</span></div>
+          <div><span class="num">4</span><span class="label">Full Apps</span></div>
+          <div><span class="num">+15%</span><span class="label">Team Efficiency</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-bg" aria-hidden="true"></div>
+  </main>
+
+  <section id="about" class="section">
+    <div class="container grid-2">
+      <div>
+        <h2>About</h2>
+        <p>Full-stack web developer with hands-on experience building and deploying applications using Node.js, ASP.NET Core MVC, Django, and SQL Server.</p>
+        <p>Built a tech career guide platform integrating Dev.to and YouTube APIs, a complete grocery store management system with admin dashboard and cart functionality, and a rich-text blogging platform with full user authentication.</p>
+      </div>
+      <div class="card">
+        <h3>Highlights</h3>
+        <ul class="checklist">
+          <li>API integrations (Dev.to, YouTube Data)</li>
+          <li>Secure auth and role-based admin dashboards</li>
+          <li>Clean code, performance, and UX focused</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section alt">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <h3>Kaptech Communication</h3>
+            <div class="meta">
+              <span class="role">Web Developer</span>
+              <span class="dot">•</span>
+              <span class="loc muted">India</span>
+              <span class="pill">Jan 2023 – Oct 2023</span>
+            </div>
+          </div>
+          <ul>
+            <li>Assisted in the design and development of responsive web applications using modern front-end and back-end technologies.</li>
+            <li>Participated in code reviews, ensuring best practices and performance optimization.</li>
+            <li>Suggested workflow improvements, increasing team efficiency by 15%.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <h3>NetcoreInfo Business Group</h3>
+            <div class="meta">
+              <span class="role">Python/Django Intern</span>
+              <span class="dot">•</span>
+              <span class="loc muted">India</span>
+              <span class="pill">May 2021 – Aug 2021</span>
+            </div>
+          </div>
+          <ul>
+            <li>Built dynamic CRUD pages using Django ORM with SQLite backend.</li>
+            <li>Developed applications following MVC, strengthening HTTP request/response understanding.</li>
+            <li>Integrated auth and authorization to enhance security.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Learning Resources Platform – Tech Career Guide</h3>
+            <span class="tag">Node.js</span>
+          </div>
+          <p>Full-stack app providing personalized career roadmaps, tutorials, and interview prep videos for tech roles. Integrates Dev.to and YouTube Data APIs to fetch role-based content.</p>
+          <div class="project-actions">
+            <a class="btn btn-sm" href="#contact">Request Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>The Daily Market – Grocery Store Web App</h3>
+            <span class="tag dotnet">ASP.NET Core MVC</span>
+          </div>
+          <p>Users browse products, add to cart, and checkout securely. Includes full Admin Dashboard for CRUD on Products, Categories, and Suppliers with SQL Server.</p>
+          <div class="project-actions">
+            <a class="btn btn-sm" target="_blank" rel="noreferrer" href="https://github.com/manpreet-2001/Grocery-Store-Management-System.git">View Code</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Blogging Website – Content Publishing Platform</h3>
+            <span class="tag">Django</span>
+          </div>
+          <p>User-friendly blog platform with full authentication (login, signup, password reset via email). Integrates Django CKEditor for rich-text posts with media.</p>
+          <div class="project-actions">
+            <a class="btn btn-sm" target="_blank" rel="noreferrer" href="https://github.com/manpreet-2001/Blogging-Website.git">View Code</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Languages & Frameworks</h3>
+          <p>JavaScript, HTML, CSS, Django, C#, ASP.NET Core MVC, SQL Server, PHP, React, Node.js, Python, C++</p>
+        </div>
+        <div>
+          <h3>Web Development</h3>
+          <p>Responsive Design, UI/UX, Front-End & Back-End, RESTful APIs, MVC Architecture</p>
+        </div>
+        <div>
+          <h3>Tools & Platforms</h3>
+          <p>Git, GitHub, Figma, VS Code, Postman, SQLite, PowerShell, Google Sheets, Version Control</p>
+        </div>
+        <div>
+          <h3>Other</h3>
+          <p>Time Management, Problem Solving, Communication, Team Collaboration, Leadership, Fast Paced, Self Starter, Attention to Detail</p>
+        </div>
+        <div>
+          <h3>Learning</h3>
+          <p>Angular, Vue.js</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <div class="container">
+      <h2>Education</h2>
+      <ul class="edu-list">
+        <li>
+          <h3>Web Development — Humber College</h3>
+          <p class="muted">January 2025 – December 2025 • Toronto, ON</p>
+        </li>
+        <li>
+          <h3>Information Technology — Algoma University</h3>
+          <p class="muted">September 2023 – August 2024</p>
+        </li>
+        <li>
+          <h3>BCA, Computer Applications — GGSIPU, India</h3>
+          <p class="muted">September 2019 – August 2022</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Let's build something great</h3>
+          <p>Open to full-time, contract, or freelance roles in Toronto or remote.</p>
+          <div class="contact-actions">
+            <a class="btn" target="_blank" rel="noreferrer" href="http://www.linkedin.com/in/manpreet-singh-802b441b5">LinkedIn</a>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="return submitContact(event)">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required placeholder="Your name" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required placeholder="you@example.com" />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="4" required placeholder="Tell me about your project..."></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-note muted">This demo form uses client-side only JS.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Manpreet Singh</strong>
+        <p class="muted">Full-Stack Developer • Toronto, ON</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="muted small">© <span id="year"></span> Manpreet Singh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
